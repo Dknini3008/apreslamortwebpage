@@ -1,0 +1,151 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+
+.header{
+  height: 100px;
+  background-color: #030200;
+  opacity: 0.95;
+}
+
+.logo{
+  width: 350px;
+  height: 90px;
+  margin-left: 3%;
+  margin-top: .5%;
+}
+
+.gameplayCard{
+  width: 350px;
+  height: 130px;
+  margin-left: 3%;
+  margin-top: 5%;
+  opacity: 0.5;
+  background-color: #581845;
+  text-align: center;
+}
+
+.musicCard{
+  width: 350px;
+  height: 130px;
+  margin-left: 3%;
+  margin-top: 5%;
+  opacity: 0.5;
+  background-color: #581845;
+  text-align: center;
+}
+
+.designCard{
+  width: 350px;
+  height: 130px;
+  margin-left: 79%;
+  margin-top: -20%;
+  opacity: 0.5;
+  background-color: #581845;
+  text-align: center;
+}
+
+.storyCard{
+  width: 350px;
+  height: 130px;
+  margin-left: 79%;
+  margin-top: 5%;
+  opacity: 0.5;
+  background-color: #581845;
+  text-align: center;
+}
+
+.difficultyCard{
+  width: 350px;
+  height: 130px;
+  margin-left: 40%;
+  margin-top: 5%;
+  opacity: 0.5;
+  background-color: #581845;
+  text-align: center;
+}
+
+ion-content.background{
+  --background: url(../../assets/Images/background.png) 0 0/100% 100% no-repeat;
+}
+
+.rating-list {
+  display: inline-block;
+  list-style: none;
+}
+.rating-list li {
+  font-size: 20px;
+  float: right;
+  color: #ddd;
+}
+.rating-list li:hover {
+  color: #ffd700;
+}
+.rating-list li:hover ~ li {
+  color: #ffd700;
+}
+.rating-list li.selected {
+  color: #ffd700;
+}
+
+.wrapper1 {
+  align-content: end;
+  text-align: center;
+  margin-left: 85%;
+  margin-top: -4%;
+  height: 300px;
+  width: 300px;
+}
+.wrapper2 {
+  align-content: end;
+  text-align: center;
+  margin-left: 75%;
+  margin-top: -16%;
+  height: 300px;
+  width: 300px;
+}
+
+.cardTittle{
+  color: #ddd;
+  font-family: 'stranger';
+}
+
+.DownloadButton{
+  margin-left: 8.5%;
+  margin-top: 1%;
+}
+
+.RateButton{
+  margin-top: 1%;
+  margin-left: 0%;
+}
+
+
+
+
+
